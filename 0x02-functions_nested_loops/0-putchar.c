@@ -1,13 +1,15 @@
 #include "main.h"
 	/**
-	 * main - print _putchar
-	 * is written by mbah
+	 * main - print with _putchar
 	 * Return: 0
 	 */
 
 
 	int main(void)
 	{
+	/**
+	 * main - main entry point
+	 * */
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
