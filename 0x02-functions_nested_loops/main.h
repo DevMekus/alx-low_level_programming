@@ -1,4 +1,7 @@
 #ifndef main_h
+/**
+ *main - Prototype header file
+ **/
 	#define main_h
 
 
