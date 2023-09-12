@@ -1,7 +1,10 @@
 #ifndef main_h
-/**
- *main - Prototype header file
- **/
+	/**
+	 * main - writes the character c to stdout	 * 	
+	 * Return: 0 On success.
+	 * On error, -1 is returned, and errno is set appropriately.
+	 */
+
 	#define main_h
 
 
