@@ -2,11 +2,12 @@
 
 
 	/**
-	 * main - fibonacci <3
+	 * main - fibonacci< 3
 	 *
+	 * Description: Fibnonacci code
 	 * Purpose - no hardcode
 	 *
-	 * Return:  (Success)
+	 * Return: 0(Success)
 	 */
 
 
