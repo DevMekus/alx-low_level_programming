@@ -6,8 +6,15 @@
  * Return: a destination string
  */
 
-char *_strcat(char *dest, char *src)
-{
-	(void) dest;
-	(void) src;
+char *_strcat(char *dest, char *src) {
+    char *originalDest = dest;
+
+    /** Move dest to the end of the string**/
+    while (*dest != '\0') {
+        dest++;
+    }
+
+    while ((*dest++ = *src++) != '\0');
+
+    return originalDest;
 }

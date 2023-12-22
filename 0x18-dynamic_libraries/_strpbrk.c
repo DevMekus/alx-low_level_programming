@@ -5,8 +5,17 @@
  * @accept:string containing the characters to match.
  * Return: pointer to the character in str1 that match
  */
-char *_strpbrk(char *s, char *accept)
+
+char *_strpbrk(char *s, char *accept) 
 {
-	(void) s;
-	(void) accept;
+    while (*s != '\0') 
+    {
+        if (strchr(accept, *s) != NULL) 
+	{
+            return (char *)s;
+        }
+        s++;
+    }
+
+    return NULL;
 }

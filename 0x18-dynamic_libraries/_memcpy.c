@@ -6,9 +6,18 @@
  * @n: Number o bytes to be copied
  * Return: Pointer to the destination
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+
+char *_memcpy(char *dest, char *src, unsigned int n) 
 {
-	(void) dest;
-	(void) src;
-	(void) n;
+    char *originalDest = dest;
+
+    while (n > 0) 
+    {
+        *dest = *src;
+        dest++;
+        src++;
+        n--;
+    }
+
+    return originalDest;
 }

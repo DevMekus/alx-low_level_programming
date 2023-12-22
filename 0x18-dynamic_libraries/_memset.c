@@ -6,9 +6,17 @@
  * @n: number of bytes to be filled
  * Return: Pointer to the filled memory
  */
-char *_memset(char *s, char b, unsigned int n)
+
+char *_memset(char *s, char b, unsigned int n) 
 {
-	(void) s;
-	(void) b;
-	(void) n;
+    char *originalS = s;
+
+    while (n > 0) 
+    {
+        *s = b;
+        s++;
+        n--;
+    }
+
+    return originalS;
 }
