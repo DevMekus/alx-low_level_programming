@@ -11,7 +11,7 @@
  *
  * Description: Prints a value every time it is compared in the list. *
  */
-listint_t *jump_ptr_list(listint_t *list, size_t size, int value)
+listint_t *jump_list(listint_t *list, size_t size, int value)
 {
     size_t step, stepping_size;
     listint_t *node_ptr, *jump_ptr;
